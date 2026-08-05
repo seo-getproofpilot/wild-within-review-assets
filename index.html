@@ -1,0 +1,150 @@
+<meta charset="utf-8">
+<title>The Wild Within: Google Review Cards and Posters</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Print-ready Google review cards and posters for The Wild Within Counseling and Holistic Therapy.">
+<meta name="robots" content="noindex">
+<style>
+  :root {
+    --ground:  #FBF8F4;
+    --surface: #FFFFFF;
+    --ink:     #2E1A2D;
+    --plum:    #4A2848;
+    --gold:    #A68B3C;
+    --muted:   #6F6055;   /* warm brown-grey, biased toward the paper, never a flat neutral */
+    --rule:    #E7DFD3;
+    --shadow:  35 20 34;
+
+    --display: "Iowan Old Style", Palatino, "Palatino Linotype", "Book Antiqua", Georgia, serif;
+    --body: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    --mono: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --ground:  #1D1119; --surface: #271826; --ink: #F0E7E2; --plum: #E4CFE0;
+      --gold: #D8BA63; --muted: #A9968C; --rule: #3B2839; --shadow: 0 0 0;
+    }
+  }
+  :root[data-theme="dark"] {
+    --ground:  #1D1119; --surface: #271826; --ink: #F0E7E2; --plum: #E4CFE0;
+    --gold: #D8BA63; --muted: #A9968C; --rule: #3B2839; --shadow: 0 0 0;
+  }
+  :root[data-theme="light"] {
+    --ground:  #FBF8F4; --surface: #FFFFFF; --ink: #2E1A2D; --plum: #4A2848;
+    --gold: #A68B3C; --muted: #6F6055; --rule: #E7DFD3; --shadow: 35 20 34;
+  }
+
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; background: var(--ground); color: var(--ink);
+    font-family: var(--body); font-size: 16px; line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+  }
+  .wrap {
+    max-width: 58rem; margin: 0 auto;
+    padding: clamp(2.5rem, 6vw, 4.5rem) clamp(1.25rem, 4vw, 2.5rem) 4.5rem;
+    display: flex; flex-direction: column; gap: clamp(2.5rem, 5vw, 3.5rem);
+  }
+
+  header { display: flex; flex-direction: column; gap: 0.7rem; }
+  .eyebrow {
+    font-size: 0.72rem; letter-spacing: 0.16em; text-transform: uppercase;
+    color: var(--gold); margin: 0;
+  }
+  h1 {
+    font-family: var(--display); font-weight: 400;
+    font-size: clamp(1.9rem, 5vw, 2.75rem); line-height: 1.12; letter-spacing: -0.01em;
+    margin: 0; text-wrap: balance; color: var(--plum);
+  }
+  .link {
+    font-family: var(--mono); font-size: 0.8rem; line-height: 1.5;
+    color: var(--muted); word-break: break-all;
+    text-decoration-color: var(--gold); text-underline-offset: 3px;
+    align-self: flex-start;
+  }
+  .link:hover { color: var(--gold); }
+
+  .grid {
+    display: grid; grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: clamp(1.75rem, 4vw, 2.75rem);
+  }
+  .piece { margin: 0; display: flex; flex-direction: column; gap: 1rem; }
+  .shot {
+    background: var(--surface); border: 1px solid var(--rule); border-radius: 2px;
+    padding: clamp(1rem, 3vw, 1.9rem); display: flex; justify-content: center;
+  }
+  .shot img {
+    display: block; max-width: 100%; height: auto;
+    box-shadow: 0 1px 2px rgb(var(--shadow) / 0.10), 0 10px 26px -8px rgb(var(--shadow) / 0.22);
+  }
+  figcaption {
+    display: flex; align-items: baseline; justify-content: space-between;
+    gap: 1rem; flex-wrap: wrap;
+  }
+  .piece h2 {
+    font-family: var(--display); font-weight: 400; font-size: 1.25rem; margin: 0;
+    color: var(--plum); display: flex; align-items: baseline; gap: 0.55rem; flex-wrap: wrap;
+  }
+  .meta {
+    font-family: var(--body); font-size: 0.66rem; letter-spacing: 0.13em;
+    text-transform: uppercase; color: var(--muted); font-variant-numeric: tabular-nums;
+  }
+  a.dl {
+    font-size: 0.82rem; letter-spacing: 0.03em; text-decoration: none;
+    color: var(--ground); background: var(--plum);
+    padding: 0.5rem 1rem; border-radius: 2px; white-space: nowrap;
+    transition: background 0.15s ease;
+  }
+  a.dl:hover { background: var(--gold); }
+  a:focus-visible { outline: 2px solid var(--gold); outline-offset: 3px; }
+
+  footer {
+    border-top: 1px solid var(--rule); padding-top: 1.3rem;
+    margin: 0; color: var(--muted); font-size: 0.88rem; max-width: 58ch;
+  }
+
+  @media (max-width: 44rem) { .grid { grid-template-columns: minmax(0, 1fr); } }
+  @media (prefers-reduced-motion: reduce) { * { transition: none !important; } }
+</style>
+
+<div class="wrap">
+
+  <header>
+    <p class="eyebrow">The Wild Within Counseling &amp; Holistic Therapy</p>
+    <h1>Google review cards and posters</h1>
+    <a class="link" href="https://search.google.com/local/writereview?placeid=ChIJxcLMeTunK4cRAyBPrSpxWk4">https://search.google.com/local/writereview?placeid=ChIJxcLMeTunK4cRAyBPrSpxWk4</a>
+  </header>
+
+  <div class="grid">
+      <figure class="piece">
+        <div class="shot"><img src="img/card-a.jpg" alt="Card A, warm, 4 x 6 in" loading="lazy"></div>
+        <figcaption>
+          <h2>Card A <span class="meta">Warm &middot; 4 x 6 in</span></h2>
+          <a class="dl" download="Wild-Within-Card-A-Warm.pdf" href="files/Wild-Within-Card-A-Warm.pdf">Download PDF</a>
+        </figcaption>
+      </figure>
+      <figure class="piece">
+        <div class="shot"><img src="img/card-b.jpg" alt="Card B, direct, 4 x 6 in" loading="lazy"></div>
+        <figcaption>
+          <h2>Card B <span class="meta">Direct &middot; 4 x 6 in</span></h2>
+          <a class="dl" download="Wild-Within-Card-B-Direct.pdf" href="files/Wild-Within-Card-B-Direct.pdf">Download PDF</a>
+        </figcaption>
+      </figure>
+      <figure class="piece">
+        <div class="shot"><img src="img/poster-a.jpg" alt="Poster A, quiet, 8.5 x 11 in" loading="lazy"></div>
+        <figcaption>
+          <h2>Poster A <span class="meta">Quiet &middot; 8.5 x 11 in</span></h2>
+          <a class="dl" download="Wild-Within-Poster-A-Quiet.pdf" href="files/Wild-Within-Poster-A-Quiet.pdf">Download PDF</a>
+        </figcaption>
+      </figure>
+      <figure class="piece">
+        <div class="shot"><img src="img/poster-b.jpg" alt="Poster B, direct, 8.5 x 11 in" loading="lazy"></div>
+        <figcaption>
+          <h2>Poster B <span class="meta">Direct &middot; 8.5 x 11 in</span></h2>
+          <a class="dl" download="Wild-Within-Poster-B-Direct.pdf" href="files/Wild-Within-Poster-B-Direct.pdf">Download PDF</a>
+        </figcaption>
+      </figure>
+  </div>
+
+  <footer>Print at 100%, background graphics on. Cards come two to a sheet.</footer>
+
+</div>
